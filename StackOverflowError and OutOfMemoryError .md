@@ -1,5 +1,6 @@
 写代码使得分别出现StackOverflowError和OutOfMemoryError。
 
+
 1.StackOverflowError
 
 　　堆栈溢出错误一般是递归调用嘛。下面的代码就可以出现：
