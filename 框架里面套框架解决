@@ -2,4 +2,16 @@
 if(top.location != self.location){
 top.location = self.location;//防止页面被框架包含
 }
+/**
+*或者使用
+* if( self.location != top.location){
+    top.location =self.location;//防止页面被框架包含
+   }
+*/
+/**
+*一下代码死循环重定向（错误代码
+* if( self.location != top.location){
+    self.location =top.location;//防止页面被框架包含
+   }
+*/
 </script>
