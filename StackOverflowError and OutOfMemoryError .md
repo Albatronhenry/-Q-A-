@@ -3,7 +3,7 @@
  1. StackOverflowError
 
 　　堆栈溢出错误一般是递归调用嘛。下面的代码就可以出现：
-```
+```java
 package T20161009;
 public class StackOverflowTest {
 public static void main(String[] args) {
@@ -21,7 +21,7 @@ public static void method(){
  2. OutOfMemoryError
 
 　　内存溢出一般是出现在申请了较多的内存空间没有释放的情形。下面的代码就可以出现：
-```
+```java
 package T20171009;
 import java.util.ArrayList;
 import java.util.List;
